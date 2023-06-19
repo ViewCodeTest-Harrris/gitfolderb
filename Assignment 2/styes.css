@@ -6,9 +6,8 @@ body{
 
     height: 936px;
     width: 1611px;
-    margin-top: 100px;
-    margin-left: 100px;
     background-color: #1e1f2f;
+    /* background-color: #fff; */
 
 }   
 
@@ -18,11 +17,8 @@ body{
     width: 60.47px;
     height: 68.55px;
     left: 161.07px;
-    top: 221px;
-
-    /* $color-primary-base */
-    background: #E82C4F;
-    
+    top: 155px;
+    background: #E82C4F; 
 
 }
 
@@ -31,12 +27,8 @@ body{
     position: absolute;
     width: 28.31px;
     height: 33.37px;
-    left: 177.81px;
-    top: 203.41px;
-
-    /* $color-font-white */
-    background: #FFFFFF;
-    
+    left: 176px;
+    top: 159px;   
 
 }
 
@@ -46,31 +38,27 @@ body{
     width: 31.06px;
     height: 27.42px;
     left: 130px;
-    top: 152.42px;
-
+    top: 128px;
     background: #FFFFFF;
-
-
 
 }
 
 .warmups{
+
     position: absolute;
     width: 331px;
     height: 96px;
     left: 261.54px;
     top: 125px;
-
     font-family: 'Bebas Neue';
     font-style: normal;
     font-weight: 400;   
     font-size: 96px;
     line-height: 128%;
-    /* or 123px */
     display: flex;
     align-items: center;
-    /* $color-font-white */
     color: #FFFFFF;
+
 }
 
 .lorem{
@@ -85,16 +73,28 @@ body{
     font-weight: 400;
     font-size: 156px;
     line-height: 93.5%;
-    /* or 146px */
     display: flex;
     align-items: center;
-    /* $color-font-white */
     color: #FFFFFF;
+
 }
+
+.logohum{
+
+    position: absolute;
+    left: 140px;
+    top: 805px;
+    
+} 
+
 
 
 
 .person{
+
+    position: absolute;
+    left: 205px;
+    top: 800px;
     width: 196px;
     height: 48px;
     font-family: 'Bebas Neue';
@@ -102,124 +102,99 @@ body{
     font-weight: 400;
     font-size: 64px;
     line-height: 40px;
-    /* or 62% */
     display: flex;
     align-items: center;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    /* $color-font-white */
     color: #FFFFFF;
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-
 
 }
 
-.time{
+.logojam{
 
+    position: absolute;
+    left: 480px;
+    top: 803px;
+
+}
+
+
+.time{
+    position: absolute;
     width: 196px;
     height: 48px;
-
+    left: 550px;
+    top: 800px;
     font-family: 'Bebas Neue';
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
     line-height: 40px;
-    /* or 62% */
     display: flex;
     align-items: center;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-
-    /* $color-font-white */
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-
-
 
 }
 
 .boxdown{
 
     box-sizing: border-box;
-
     position: absolute;
     width: 558px;
     height: 644px;
     left: 691px;
     top: 385px;
-
     border: 60px solid #2D2F48;
 
 }
 
 .boxup{
 
-
     box-sizing: border-box;
-
     position: absolute;
     width: 558px;
     height: 644px;
     left: 1169px;
     top: -179px;
-
     border: 60px solid #48596D;
-
+    border-top: 0px;
 
 }
 
 .midwhite{
 
-
     box-sizing: border-box;
-
     position: absolute;
     width: 504px;
     height: 618px;
     left: 957px;
     top: 166px;
-
     border: 60px solid #FFFFFF;
-
 
 }
 
 .inmidred{
 
     box-sizing: border-box;
-
     position: absolute;
     width: 240px;
     height: 240px;
     left: 1089px;
     top: 305px;
-
-    /* $color-primary-base */
     border: 40px solid #E82C4F;
-
 
 }
 
 .inmidblue{
 
     box-sizing: border-box;
-
     position: absolute;
     width: 80px;
     height: 80px;
     left: 1089px;
     top: 585px;
-
     border: 20px solid #3256A1;
 
 }
@@ -227,15 +202,12 @@ body{
 .inmidwhitec{
 
     box-sizing: border-box;
-
     position: absolute;
     width: 80px;
     height: 80px;
     left: 1249px;
     top: 585px;
-
     border: 20px solid #FFFFFF;
-
 
 }
 
@@ -251,3 +223,29 @@ body{
 
 }
 
+.clear1{
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 1700px;
+    height: 100px;
+    left: 0px;
+    top: 944px;
+    border: 20px solid #1e1e1e;
+    background-color: #1e1e1e;
+
+}
+
+.clear2{
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 110px;
+    height: 1000px;
+    left: 1619.4px;
+    top: 0px;
+    border: 20px solid #1e1e1e;
+    background-color: #1e1e1e;
+    
+
+}

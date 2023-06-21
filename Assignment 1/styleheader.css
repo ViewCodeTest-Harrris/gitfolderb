@@ -1,0 +1,65 @@
+body{
+    background-color: #59afe5;
+}  
+
+.container{
+    padding: 10px;
+} 
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    /* make them to the right middle and top controlled */
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.personName{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.personImage{
+    padding: 30px;
+    max-width: 10%;
+    max-height: 10%;
+    
+}
+
+.datapoint{
+    margin-top: -20px;
+    padding-left: 25px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.skillheader{
+    margin-top: 50px;
+    color: #fff;
+    font-size: 70px;
+
+}
+
+.header2{
+    font:bold;
+    color: #fff;
+    font-size: 30px;
+}
+
+hr{
+    color: #fff;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
